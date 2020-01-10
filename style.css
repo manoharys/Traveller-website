@@ -191,6 +191,7 @@ header{
     height:200px;
     cursor: pointer;
     box-shadow: 5px 10px 18px #3b2b18c5;
+    transition: 1s ease;
 }
 
 .travelling-gallery h3{
@@ -203,4 +204,127 @@ header{
 }
 .gallery img:hover{
     transform: scale(1.1);
+}
+
+/* end of featured-gallery */
+
+/* offer-section */
+.offer{
+    height: 500px;
+    background-image: url(./images/offer.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.offer-content{
+    position: relative;
+    color:white;
+    opacity: .7;
+    background-color:rgb(26, 23, 23);
+    height: 200px;
+    display:flex;
+    top:200px;
+    
+}
+.offer-inside-content{
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.offer-inside-content h3{
+    font-size: 38px;
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: 'Permanent Marker', cursive;
+}
+.offer-inside-content p{
+    text-align: center;
+}
+.offer-btn{
+    margin-left: 200px;
+    position: relative;
+    top: 100px;
+    width: 200px;
+}
+.offer-btn button{
+    padding: 9px;
+    color:white;
+    background-color: rgb(41, 37, 37);
+    border:1px solid white;
+    border-radius: 24px;
+    font-size: medium;
+    outline: none;
+}
+.offer-btn button:hover{
+  color:black;
+  background-color: white;
+}
+/* end of offer section */
+
+/* review section */
+.review-section {
+    margin-top: 60px;
+    text-align: center;
+ 
+}
+.review-section h3{
+    font-size: 38px;
+    font-weight: bold;
+    color:black;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.review-content{
+    border:1px solid black;
+    text-align: center;
+    margin-top: 60px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.review-content img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border:1px solid orangered;
+  position: relative;
+  top:40px;
+}
+
+.review-content h4{
+    font-weight: bold;
+    padding: 4px;
+}
+.quote i{
+    color:orangered;
+    margin-bottom: 35px;
+    font-size: x-large;
+    margin-top: 40px;
+}
+.review-content p{
+    line-height: 2em;
+    letter-spacing: 1px;
+    margin-bottom: 39px;
+}
+
+/* footer section */
+.footer-sec{
+    margin-top: 150px;
+    background-image: linear-gradient(rgb(85, 79, 79),rgba(224, 218, 218, 0.952));
+    width: 100%;
+    height: 200px;
+    color:white;
+    justify-content: center;
+    text-align: center;
+}
+.footer-sec li{
+    list-style-type: none;
+}
+.copyright i{
+    color :red;
+    
+}
+.copyright{
+    position: relative;
+    text-align: center;
+    top: -29px;
 }
