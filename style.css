@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+ /* header section */
+
+header{
+    background-image: url(./images/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    color:white;
+}
+
+.logo{
+    display:flex;
+    margin-top:19px ;
+
+}
+.logo img{
+    width:50px;
+    height: 50px;
+}
+
+.logo p{
+    font-size: large;
+    padding:10px;
+    font-weight: bold;
+}
+
+.landing .btn{
+  float:right;
+  color:black;
+  position: relative;
+  top:-60px;
+  
+}
+.btn button{
+    padding:5px;
+    width:100px;
+    border-radius: 10px;
+    border:none;
+    outline: none !important;
+    background-image:linear-gradient(rgb(21, 243, 213),rgba(89, 80, 175, 0.63)) ;
+    color:#fff;
+}
+
+.btn button:hover{
+   color:#000;
+   background-image:linear-gradient(rgb(41, 158, 142),rgba(89, 80, 175, 0.63)) ;
+   font-weight: bold;
+}
+.search{
+    display:flex;
+}
+.main-content{
+    margin-top: 10%;
+    margin-left:400px;
+}
+.main-content h3{
+    font-size: 45px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200px;
+
+}
+.main-content p{
+    margin-left: 100px;
+}
+.main-content input{
+    padding: 10px;
+    border-radius: 25px;
+    width: 550px;
+    margin-top: 2em;
+    outline:none;
+    position: relative;
+    left: -50px;
+}
+.search button{
+    padding: 7px;
+    border-radius: 25px;
+    width: 100px;
+    margin-top: 2.2em;
+    color: #fff;
+    position: relative;
+    left: -150px;
+    background-image:linear-gradient(rgb(19, 231, 203),rgba(51, 32, 226, 0.63)) ;
+    outline: none;
+
+}
+
+.search button:hover{
+    background-image:linear-gradient(rgb(54, 189, 173),rgba(51, 32, 226, 0.63)) ;
+     color:#000;
+}
