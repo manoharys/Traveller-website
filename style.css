@@ -1,6 +1,15 @@
+/* google-fonts */
+<style>
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+</style>
+
 *{
-    margin:0;
-    padding:0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
  /* header section */
@@ -57,17 +66,18 @@ header{
 }
 .main-content{
     margin-top: 10%;
-    margin-left:400px;
+    text-align: center;
+    
 }
 .main-content h3{
     font-size: 45px;
     font-style: italic;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 200px;
-
+    font-family: 'Permanent Marker', cursive;
 }
 .main-content p{
-    margin-left: 100px;
+   font-size: 18px;
+   margin-top: 3px;
 }
 .main-content input{
     padding: 10px;
@@ -76,7 +86,7 @@ header{
     margin-top: 2em;
     outline:none;
     position: relative;
-    left: -50px;
+    margin-left: 300px;
 }
 .search button{
     padding: 7px;
@@ -85,7 +95,7 @@ header{
     margin-top: 2.2em;
     color: #fff;
     position: relative;
-    left: -150px;
+    left: -100px;
     background-image:linear-gradient(rgb(19, 231, 203),rgba(51, 32, 226, 0.63)) ;
     outline: none;
 
@@ -94,4 +104,100 @@ header{
 .search button:hover{
     background-image:linear-gradient(rgb(54, 189, 173),rgba(51, 32, 226, 0.63)) ;
      color:#000;
+}
+
+
+/* featured-area */
+
+.featured-area{
+    height: 500px;
+    margin-top:30px;
+  
+}
+.featured-area img{
+    width:100%;
+    height: 300px;
+}
+.featured-area h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+.price{
+    border:1px solid orangered;
+    width:50px;
+    height: 50px;
+    background: orangered;
+    border-radius: 50%;
+    position: relative;
+    top:-25px;
+    left: 10px;
+}
+
+.price p{
+    color: #fff;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.rating{
+    position: relative;
+    top: -70px;
+    left: 270px;
+    color: orangered;
+}
+
+.description{
+    margin-top: 0px;
+    position: relative;
+    top:-80px;
+    justify-content: center;
+    text-align: justify;
+}
+.description h3{
+    font-weight: 700;
+    font-size: large;
+}
+.description p{
+    font-weight: 500;
+    position: relative;
+    top: -15px;
+}
+.area{
+    border:1px solid rgb(8, 8, 8);
+    height: 500px;
+    padding: 3px;
+    box-shadow: 5px 10px 18px #888888;
+}
+ /* end of feature area */
+
+ /*  travelling-gallery */
+
+ .travelling-gallery{
+     margin-top: 150px;
+     background-image: linear-gradient(white,rgb(148, 137, 137));
+     width: 100%;
+     height: 400px;
+ }
+ 
+
+ .gallery img{
+    margin-top: 10px;
+    width:100%;
+    height:200px;
+    cursor: pointer;
+}
+
+.travelling-gallery h3{
+  
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px;
+        font-family: 'Permanent Marker', cursive;
+    
 }
